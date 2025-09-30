@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 5s ease infinite;
+}
+  
+input,
+textarea,
+select {
+  background-color: white !important;
+  color: #1a202c !important; 
+  border-color: #d1d5db !important; 
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af !important; 
+}
+
+@keyframes flowingGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 400% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.perspective-1000 {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
