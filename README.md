@@ -21,7 +21,7 @@ Features -
 
 *Dark Mode: Toggle between light and dark themes, with consistent styling across all components (navbar, footer, tables, modals).
 
-*Interactive Navigation: Non-sticky navbar with links to Home, Meals, Upcoming, and Login pages, featuring a polished logo and user profile dropdown.
+*Interactive Navigation: Navbar with links to Home, Meals, Upcoming, and Login pages, featuring a polished logo and user profile dropdown.
 
 *Social Media Integration: Footer includes links to Facebook and Instagram for community engagement.
 
